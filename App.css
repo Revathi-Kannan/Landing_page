@@ -1,0 +1,211 @@
+#root {
+ width: 100%;
+}
+
+/* Ensure the overall container layout is set correctly */
+.App {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+/* Adjust Header and Center to avoid position issues */
+.Header, .Center {
+    width: 100%;
+    margin-bottom: 20px; /* Adds spacing between components */
+}
+
+.Overall {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.IconOverall {
+    /* Remove position: absolute */
+    padding: 50px;
+    border-radius: 5%;
+    margin: 20px;
+   font-size: 25PX;
+color: rgb(73, 73, 149);
+    width: 360px;
+    text-align: center; /* Centers the content inside each icon */
+   /* box-shadow: 0 4px 8px rgba(238, 37, 37, 0.1); /* Optional: for some styling */
+}
+
+.IconOverall img {
+    /* Remove position: relative */
+    max-width: 200px; /* Ensures images stay small and uniform */
+    height: auto;
+   
+    display: block;
+    margin: 0 auto 20px; /* Centers the image */
+}
+
+.Overall {
+    display: flex;
+    position: absolute;
+    top:110%;
+   
+    left:60px;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items at the top */
+    flex-wrap: wrap; /* Ensures the icons wrap if they don't fit in one row */
+    gap: 13rem; /* Spacing between the icons */
+} 
+
+/* .Icon1{
+    position: absolute;
+    top: 300%;
+
+} */
+
+.OverallIcon {
+    display: flex;
+    position: absolute;
+    top:160%;
+   
+    left:60px;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items at the top */
+    flex-wrap: wrap; /* Ensures the icons wrap if they don't fit in one row */
+    gap: 13rem; /* Spacing between the icons */
+}
+/* .Overall{
+   
+  position: absolute;
+    display: flex;
+    justify-content: center;
+    top:50px
+  } */
+
+
+  .OverallBox1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Box1Text {
+    top:500%;
+    max-width: 50%; /* Text will take 50% of the available width */
+}
+
+.Box1title {
+    position: absolute;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+    left: 20px;
+    font-size: 40px;
+    top:180%;
+}
+
+.box1para {
+    line-height: 1.6;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top:190%;
+}
+
+.Box1img {
+    position: absolute;
+    top:170%;
+    right: 20px;
+    width: 50%; /* Image takes up 45% of the available width */
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+.OverallBox2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Box2Text {
+    top:500%;
+    max-width: 50%; /* Text will take 50% of the available width */
+}
+
+.Box2title {
+    position: absolute;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+    left: 50%;
+
+    font-size: 40px;
+    top:260%;
+}
+
+.box2para {
+    line-height: 1.6;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top:270%;
+}
+
+.Box2img {
+    position: absolute;
+    top:248%;
+    right: 1033px;
+    width: 50%; /* Image takes up 45% of the available width */
+    height: auto;
+    object-fit: cover;
+}
+
+
+.PeopleOverall {
+    /* Remove position: absolute */
+    padding: 50px;
+    border-radius: 5%;
+    margin: 20px;
+   font-size: 25PX;
+    color: rgb(73, 73, 149);
+    width: 360px;
+    text-align: center; /* Centers the content inside each icon */
+   /* box-shadow: 0 4px 8px rgba(238, 37, 37, 0.1); /* Optional: for some styling */
+}
+
+.PeopleOverall img {
+    /* Remove position: relative */
+    max-width: 200px; /* Ensures images stay small and uniform */
+    height: auto;
+   
+    display: block;
+    margin: 0 auto 20px; /* Centers the image */
+}
+
+.pploverall {
+    display: flex;
+    position: absolute;
+    top:350%;
+   
+    left:60px;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items at the top */
+    flex-wrap: wrap; /* Ensures the icons wrap if they don't fit in one row */
+    gap: 13rem; /* Spacing between the icons */
+} 
+
+.main{
+    position: absolute;
+    top:330%;
+    text-align: center;
+    left: 38%;
+    font-size: 50px;
+    color: grey;
+}
